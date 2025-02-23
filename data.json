@@ -222,6 +222,42 @@
                     "name": "Handling Backlog Queues",
                     "link": "https://parottasalna.com/2025/01/06/learning-notes-43-avoiding-insurmountable-queue-backlogs-aws-cloud-pattern/",
                     "checked": false
+                },
+                {
+                    "id": 18,
+                    "name": "Fixed Partition Pattern",
+                    "link": "https://parottasalna.com/2025/01/09/learning-notes-50-fixed-partition-pattern-distributed-pattern/",
+                    "checked": false
+                },
+                {
+                    "id": 19,
+                    "name": "Expand Contract Pattern",
+                    "link": "https://parottasalna.com/2025/01/08/learning-notes-46-expand-contract-pattern-refactor-pattern/",
+                    "checked": false
+                },
+                {
+                    "id": 20,
+                    "name": "Active Active / Active Passive Patterns",
+                    "link": "https://parottasalna.com/2025/01/04/learning-notes-36-active-active-active-passive-patterns-ha-patterns/",
+                    "checked": false
+                },
+                {
+                    "id": 21,
+                    "name": "Competing Consumer",
+                    "link": "https://parottasalna.com/2025/01/01/learning-notes-24-competing-consumer-messaging-queue-patterns/",
+                    "checked": false
+                },
+                {
+                    "id": 22,
+                    "name": "Request Reply Pattern",
+                    "link": "https://parottasalna.com/2024/12/28/learning-notes-15-request-reply-pattern-rabbitmq/",
+                    "checked": false
+                },
+                {
+                    "id": 23,
+                    "name": "Two Phase Commit Protocol",
+                    "link": "https://parottasalna.com/2025/01/03/learning-notes-29-two-phase-commit-protocol-acid-in-distributed-systems/",
+                    "checked": false
                 }
             ]
         }
