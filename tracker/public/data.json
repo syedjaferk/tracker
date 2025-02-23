@@ -115,6 +115,115 @@
                         "checked": false
                     }
                 ]
-            }
+            },
+        "cloud_patterns":{
+            "id": "cloud_patterns",
+            "title": "Cloud Patterns",
+            "description": "Cloud patterns in system design are architectural best practices for deploying and scaling applications in the cloud.",
+            "links": [
+                {
+                    "id": 1,
+                    "name": "Gatekeeper Cloud Pattern",
+                    "link": "https://parottasalna.com/2024/12/21/learning-notes-3-gatekeeper-design-pattern/",
+                    "checked": false
+                },
+                {
+                    "id": 2,
+                    "name": "Backpressure Handling",
+                    "link": "https://parottasalna.com/2025/01/07/learning-notes-45-backpressure-handling-in-distributed-systems/",
+                    "checked": false
+                },
+                {
+                    "id": 3,
+                    "name": "Gateway Aggregator Pattern",
+                    "link": "https://parottasalna.com/2024/12/27/learning-notes-13-gateway-aggregator-pattern/",
+                    "checked": false
+                },
+                {
+                    "id": 4,
+                    "name": "Hybrid Origin Failover Pattern",
+                    "link": "https://parottasalna.com/2025/01/12/learning-notes-52-hybrid-origin-failover-pattern/",
+                    "checked": false
+                },
+                {
+                    "id": 5, 
+                    "name": "Sidecar Pattern",
+                    "link": "https://parottasalna.com/2024/12/26/learning-notes-10-sidecar-pattern-cloud-patterns/",
+                    "checked": false
+                },
+                {
+                    "id": 6,
+                    "name": "Circuit Breaker Pattern",
+                    "link": "https://parottasalna.com/2024/12/29/learning-notes-17-circuit-breaker-pattern-cloud-pattern/",
+                    "checked": false
+                },
+                {
+                    "id": 7,
+                    "name": "Bulk Head Pattern",
+                    "link": "https://parottasalna.com/2024/12/30/learning-notes-18-bulk-head-pattern-resource-isolation-cloud-pattern/",
+                    "checked": false
+                },
+                {
+                    "id": 8,
+                    "name": "Claim Check Pattern",
+                    "link": "https://parottasalna.com/2024/12/30/learning-notes-18-bulk-head-pattern-resource-isolation-cloud-pattern/",
+                    "checked": false
+                },
+                {
+                    "id": 9,
+                    "name": "Retry Pattern",
+                    "link": "https://parottasalna.com/2024/12/31/learning-notes-23-retry-pattern-cloud-patterns/",
+                    "checked": false
+                },
+                {
+                    "id": 10,
+                    "name": "Valet Key Pattern",
+                    "link": "https://parottasalna.com/2025/01/01/learning-notes-25-valet-key-pattern-cloud-patterns/",
+                    "checked": false
+                },
+                {
+                    "id": 11,
+                    "name": "Queue Based Loading",
+                    "link": "https://parottasalna.com/2025/01/03/learning-notes-30-queue-based-loading-cloud-patterns/",
+                    "checked": false
+                },
+                {
+                    "id": 12,
+                    "name": "Outbox Pattern",
+                    "link": "https://parottasalna.com/2025/01/03/learning-notes-31-outbox-pattern-cloud-pattern/",
+                    "checked": false
+                },
+                {
+                    "id": 13,
+                    "name": "Orchestrator Pattern",
+                    "link": "https://parottasalna.com/2025/01/05/learning-notes-37-orchestrator-pattern-cloud-pattern/",
+                    "checked": false
+                },
+                {
+                    "id": 14,
+                    "name": "Choreography Pattern",
+                    "link": "https://parottasalna.com/2025/01/05/learning-notes-38-choreography-pattern-cloud-pattern/",
+                    "checked": false
+                },
+                {
+                    "id": 15,
+                    "name": "Compensation Pattern",
+                    "link": "https://parottasalna.com/2025/01/05/learning-notes-39-compensation-pattern-cloud-pattern/",
+                    "checked": false
+                },
+                {
+                    "id": 16,
+                    "name": "SAGA Pattern",
+                    "link": "https://parottasalna.com/2025/01/05/learning-notes-40-saga-pattern-cloud-patterns/",
+                    "checked": false
+                },
+                {
+                    "id": 17,
+                    "name": "Handling Backlog Queues",
+                    "link": "https://parottasalna.com/2025/01/06/learning-notes-43-avoiding-insurmountable-queue-backlogs-aws-cloud-pattern/",
+                    "checked": false
+                }
+            ]
         }
+    }
 }
