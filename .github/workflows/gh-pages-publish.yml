@@ -30,7 +30,7 @@ jobs:
         working-directory: tracker
 
       - name: Build Angular Project
-        run: npm run build -- --configuration=production --base-href="/tracker"
+        run: npm run build -- --configuration=production --base-href="/tracker/"
         working-directory: tracker
         
       - name: Deploy to GitHub Pages
