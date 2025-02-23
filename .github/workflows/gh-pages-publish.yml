@@ -30,13 +30,13 @@ jobs:
         working-directory: tracker
 
       - name: Build Angular Project
-        run: npm run build -- --configuration=production --base-href="/mainsite"
+        run: npm run build -- --configuration=production --base-href="/tracker"
         working-directory: tracker
         
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           branch: gh-pages
-          folder: tracker/dist/tracker
+          folder: tracker/dist/tracker/browser
           clean: true
           token: ${{ secrets.GH_PAT }}
