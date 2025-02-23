@@ -6,7 +6,7 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class JsonApiService {
-  private apiUrl = '/tracker/data.json';
+  private apiUrl = '/data.json';
 
   constructor(private http: HttpClient) {}
 
