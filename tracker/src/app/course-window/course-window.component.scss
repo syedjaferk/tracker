@@ -1,0 +1,14 @@
+.container-custom {
+    overflow-y: auto; /* Use 'auto' instead of 'scroll' to show scrollbar only when needed */
+    max-height: 80vh;
+    max-width: 1140px;
+    padding: 15px; /* Add padding to prevent content from touching edges */
+}
+
+/* Ensures container width is responsive */
+.container {
+    width: 100%;
+    max-width: 1200px; /* Slightly increased max-width for better spacing */
+    padding: 1rem; /* Equivalent to Tailwind’s 'p-4' */
+    margin: 0 auto; /* Centers the container */
+}

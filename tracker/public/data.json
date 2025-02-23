@@ -1,0 +1,120 @@
+{
+    "courses": {
+        "docker_101_ps":
+            {
+                "id": "docker_101_ps",
+                "title": "Docker",
+                "description": "Docker is a containerization tool that helps you run applications lightweight, reliably, and in isolation.",
+                "links": [
+                    {
+                        "id": 1,
+                        "name": "Virtual Machine and the grand house",
+                        "link": "https://parottasalna.com/2024/08/04/virtual-machine-and-the-grand-house/",
+                        "checked": false
+                    },
+                    {
+                        "id": 2,
+                        "name": "The Tale of Magic Kitchen : A Docker Architecture",
+                        "link": "https://parottasalna.com/2024/08/10/the-tale-of-magic-kitchen-a-docker-architecture/",
+                        "checked": false
+                    },
+                    {
+                        "id": 3,
+                        "name": "Virtual Machines VS Containers",
+                        "link": "https://parottasalna.com/2024/08/12/virtual-machines-vs-containers/",
+                        "checked": false
+                    },
+                    {
+                        "id": 4,
+                        "name": "The Digital Tea Kadai – Client Server Architecture & Docker",
+                        "link": "https://parottasalna.com/2024/08/12/the-digital-tea-kadai-client-server-architecture-docker/",
+                        "checked": false
+                    },
+                    {
+                        "id": 5,
+                        "name": "The Bakery, Recepies, Dough & Cookies – Registry, Repository, Images, Containers",
+                        "link": "https://parottasalna.com/2024/08/12/docker-ep-5-the-bakery-recepies-dough-cookies-registry-repository-images-containers/",
+                        "checked": false
+                    },
+                    {
+                        "id": 6,
+                        "name": "Running ‘Hello, World!’ with BusyBox: A Docker Adventure",
+                        "link": "https://parottasalna.com/2024/08/15/docker-ep-6-running-hello-world-with-busybox-a-docker-adventure/",
+                        "checked": false
+                    },
+                    {
+                        "id": 7,
+                        "name": "Diving Deeper into Docker with Detached Mode, Naming, and Inspections",
+                        "link": "https://parottasalna.com/2024/08/15/docker-ep-7-diving-deeper-into-docker-with-detached-mode-naming-and-inspections/",
+                        "checked": false
+                    },
+                    {
+                        "id": 8,
+                        "name": "Tomcat: Exploring Docker Port Mapping and Logs",
+                        "link": "https://parottasalna.com/2024/08/15/docker-ep-8-tomcat-exploring-docker-port-mapping-and-logs/",
+                        "checked": false
+                    },
+                    {
+                        "id": 9,
+                        "name": "The Building Blocks – Detailed Structure of a Dockerfile",
+                        "link": "https://parottasalna.com/2024/08/15/docker-ep-9-the-building-blocks-detailed-structure-of-a-dockerfile/",
+                        "checked": false
+                    },
+                    {
+                        "id": 10,
+                        "name": "Let’s Dockerize a Flask Application",
+                        "link": "https://parottasalna.com/2024/08/18/docker-ep-10-lets-dockerize-a-flask-application/",
+                        "checked": false
+                    },
+                    {
+                        "id": 11,
+                        "name": "Docker Networking & Docker Volumes",
+                        "link": "https://parottasalna.com/2024/08/19/docker-ep-11-docker-networking-docker-volumes/",
+                        "checked": false
+                    },
+                    {
+                        "id": 12,
+                        "name": "Will –no-cache-dir in pip helps in reducing size of docker image ?",
+                        "link": "https://parottasalna.com/2024/06/26/will-no-cache-dir-in-pip-helps-in-reducing-size-of-docker-image/",
+                        "checked": false
+                    },
+                    {
+                        "id": 13,
+                        "name": "Antipatterns while using docker containers",
+                        "link": "https://parottasalna.com/2024/06/30/antipatterns-while-using-docker-containers/",
+                        "checked": false
+                    },
+                    {
+                        "id": 14,
+                        "name": "Docker Directives – Env Directive",
+                        "link": "https://parottasalna.com/2024/07/09/docker-directives-env-directive/",
+                        "checked": false
+                    },
+                    {
+                        "id": 15,
+                        "name": "Docker Directives – ARG Directive",
+                        "link": "https://parottasalna.com/2024/07/10/docker-directives-arg-directive/",
+                        "checked": false
+                    },
+                    {
+                        "id": 16,
+                        "name": "Is ‘Latest’ Tag actually refers to the latest image in docker ?",
+                        "link": "https://parottasalna.com/2024/06/09/is-latest-tag-actually-refers-to-the-latest-image-in-docker/",
+                        "checked": false
+                    },
+                    {
+                        "id": 17,
+                        "name": "COPY or ADD in DOCKERfile ?",
+                        "link": "https://parottasalna.com/2024/06/17/copy-or-add-in-dockerfile/",
+                        "checked": false
+                    },
+                    {
+                        "id": 18,
+                        "name": "Docker Cookbook",
+                        "link": "https://parottasalna.com/2024/06/20/docker-cookbook/",
+                        "checked": false
+                    }
+                ]
+            }
+        }
+}

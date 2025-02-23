@@ -1,0 +1,14 @@
+<div class="max-w-md shadow-md rounded-lg p-6 transition-transform duration-300 hover:scale-105 bg-blue-200 h-[220px] flex flex-col justify-between cursor-pointer"
+(click)="navigateToDetails()">
+    <h2 class="text-2xl font-bold">{{ course_data.title }}</h2>
+    <p class="text-gray-600">{{ course_data.description }}</p>
+    
+    <div class="w-full bg-gray-200 rounded-full dark:bg-white-700">
+        <div class="bg-blue-600 text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-full animate-pulse" style="width: 45%"> 45%</div>
+    </div>
+
+    <!-- Button (Fixed position inside card) -->
+    <button class="mt-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600" (click)="navigateToDetails()">
+      Start Learning
+    </button>
+</div>

@@ -1,0 +1,42 @@
+name: Deploy Angular to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main  # Change to your default branch if needed
+  workflow_dispatch:
+    
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
+
+      - name: Install Dependencies
+        run: npm install
+        working-directory: tracker
+
+      - name: Build Angular Project
+        run: npm run build -- --configuration=production --base-href="/mainsite"
+        working-directory: tracker
+        
+      - name: Deploy to GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          branch: gh-pages
+          folder: tracker/dist/tracker
+          clean: true
+          token: ${{ secrets.GH_PAT }}
